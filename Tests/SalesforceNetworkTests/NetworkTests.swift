@@ -1,5 +1,5 @@
 import XCTest
-@testable import SalesforceNetwork
+import SalesforceNetwork
 
 final class NetworkTests: XCTestCase {
     

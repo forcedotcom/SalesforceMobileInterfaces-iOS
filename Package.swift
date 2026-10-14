@@ -79,6 +79,26 @@ let package = Package(
             dependencies: ["SalesforceCache"],
             path: "Sources/SalesforceCacheTarget"
         ),
+        .testTarget(
+            name: "SalesforceNetworkTests",
+            dependencies: ["SalesforceNetwork"]
+        ),
+        .testTarget(
+            name: "SalesforceLoggingTests",
+            dependencies: ["SalesforceLogging"]
+        ),
+        .testTarget(
+            name: "SalesforceUserTests",
+            dependencies: ["SalesforceUser"]
+        ),
+        .testTarget(
+            name: "SalesforceNavigationTests",
+            dependencies: ["SalesforceNavigation"]
+        ),
+        .testTarget(
+            name: "SalesforceCacheTests",
+            dependencies: ["SalesforceCache"]
+        ),
     ],
     swiftLanguageVersions: [.v5]
 )

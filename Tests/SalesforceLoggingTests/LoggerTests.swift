@@ -1,5 +1,5 @@
 import XCTest
-@testable import SalesforceLogging
+import SalesforceLogging
 
 final class LoggerTests: XCTestCase {
     

@@ -1,5 +1,5 @@
 import XCTest
-@testable import SalesforceUser
+import SalesforceUser
 
 final class UserTests: XCTestCase {
     

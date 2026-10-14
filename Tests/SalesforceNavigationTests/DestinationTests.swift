@@ -1,5 +1,5 @@
 import XCTest
-@testable import SalesforceNavigation
+import SalesforceNavigation
 
 final class DestinationTests: XCTestCase {
     
