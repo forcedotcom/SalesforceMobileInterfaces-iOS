@@ -1,5 +1,5 @@
 import XCTest
-@testable import SalesforceCache
+import SalesforceCache
 
 final class CacheTests: XCTestCase {
     
