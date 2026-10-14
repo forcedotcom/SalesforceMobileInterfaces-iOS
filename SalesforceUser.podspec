@@ -9,10 +9,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/forcedotcom/SalesforceMobileInterfaces-iOS'
   s.license          = { :type => "Apache 2.0" }
   s.author           = { 'Mobile Agentforce SDK' => 'mobile-agentforcesdk-public@salesforce.com' }
-  s.source           = {
-    :http   => "https://github.com/forcedotcom/SalesforceMobileInterfaces-iOS/releases/download/#{s.version}/SalesforceUser.xcframework.zip",
-    :sha256 => 'd6bc81a2c8d543004f4f3c90ddcff368da292630d8187ee02cd65ba20b1a0926'
-  }
+  s.source           = { :http => "https://github.com/forcedotcom/SalesforceMobileInterfaces-iOS/releases/download/#{s.version}/SalesforceUser.xcframework.zip" }
 
   s.ios.deployment_target = '16.0'
   s.swift_version = '5.0'
